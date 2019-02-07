@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C203D4C1-00F8-48E5-ACF1-A2857D177813}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{C203D4C1-00F8-48E5-ACF1-A2857D177813}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="New_SoundBank" ID="{575470DA-5896-49B7-9B16-17C0BF5455B7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambience_CryoLab_Play" ID="{0BDEAC4A-4CE1-4FCC-8575-600B0B1FE5ED}" WorkUnitID="{622B12D2-0C9A-405D-9412-58289D60B320}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

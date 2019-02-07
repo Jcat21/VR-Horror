@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{36C12ECA-D9C6-481A-8B3A-503D806D9841}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{36C12ECA-D9C6-481A-8B3A-503D806D9841}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Ambience_CryoLab" ID="{712A0C8D-4507-4A67-9A9B-A173FDF2BBDD}" ShortID="216584979">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54B902FD-7BB5-4C34-A0A9-526FB335816A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{547EBB7D-A2D8-48F0-BCB0-92CCA738A047}" WorkUnitID="{7616781A-D871-470A-8BF8-429B37A8A214}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pytheas Cryo Ambient v1_01_16BIT" ID="{570C66E1-8E8A-4DBE-B448-3384B3A39866}" ShortID="595489357">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54B902FD-7BB5-4C34-A0A9-526FB335816A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7616781A-D871-470A-8BF8-429B37A8A214}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pytheas Cryo Ambient v1_01_16BIT" ID="{85BC40E2-480C-47B7-98A2-62885670D5B1}" ShortID="994446832">
+									<Language>SFX</Language>
+									<AudioFile>Pytheas Cryo Ambient v1.01_16BIT.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pytheas Cryo Ambient v1_01_16BIT" ID="{85BC40E2-480C-47B7-98A2-62885670D5B1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

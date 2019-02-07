@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1478350225	Ambience_CryoLab_Play			\Default Work Unit\Ambience_CryoLab_Play	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	994446832	Pytheas Cryo Ambient v1_01_16BIT	C:\Users\Andrew\Documents\Unreal Projects\Pytheas\PytheasProj\PytheasProj_WwiseProject\.cache\Windows\SFX\Pytheas Cryo Ambient v1.01_16BIT_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience_CryoLab\Pytheas Cryo Ambient v1_01_16BIT		24812372
+

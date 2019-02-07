@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{622B12D2-0C9A-405D-9412-58289D60B320}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{622B12D2-0C9A-405D-9412-58289D60B320}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Ambience_CryoLab_Play" ID="{0BDEAC4A-4CE1-4FCC-8575-600B0B1FE5ED}">
+					<ChildrenList>
+						<Action Name="" ID="{439E938D-7D19-4986-8959-32309E7C7BB0}" ShortID="444766262">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pytheas Cryo Ambient v1_01_16BIT" ID="{570C66E1-8E8A-4DBE-B448-3384B3A39866}" WorkUnitID="{36C12ECA-D9C6-481A-8B3A-503D806D9841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
